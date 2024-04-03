@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+.main-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 4fr;
+    height: 100vh;
+    width: 100%;
+    border: solid blue;
+}
+
+.side-content-container {
+    grid-row: 1 / 3;
+    border: solid red;
+}
+
+.header-content-container {
+    border: solid green;
+}
+
+.main-content-container {
+    border: solid orchid;
+}
